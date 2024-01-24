@@ -1,0 +1,7 @@
+Name,samAccountName,ParentOU,GroupMembership,Enabled
+PH-DC02,PH-DC02,"OU=Domain Controllers","Tier0PhysicalDC",true
+Tier0SyncServer,Tier0SyncServer,"OU=Synchronisation,OU=Tier0 Servers,OU=Tier0,OU=Admin",Tier0SyncServers,true
+Tier1DbSRV,Tier1DbSRV,"OU=Database,OU=Tier 1 Servers",,true
+Tier1AppSRV,Tier1AppSRV,"OU=Application,OU=Tier 1 Servers",,true
+Tier1PAW,Tier1PAW,"OU=Devices,OU=Tier1,OU=Admin",Tier1PAWComputers,true
+Tier0PAW,Tier0PAW,"OU=Devices,OU=Tier0,OU=Admin",Tier0PAWComputers,true
